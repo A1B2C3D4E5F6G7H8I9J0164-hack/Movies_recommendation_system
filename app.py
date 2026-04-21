@@ -4,8 +4,7 @@ import streamlit as st
 # =============================
 # CONFIG
 # =============================
-API_BASE = "https://movies-recommendation-system-pxbl.onrender.com"
-
+API_BASE = "https://movies-recommendation-system-pxbl.onrender.com/"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="Cinerama", page_icon="🎞️", layout="wide")
