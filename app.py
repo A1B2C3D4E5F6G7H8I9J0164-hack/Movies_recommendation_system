@@ -797,7 +797,7 @@ elif st.session_state.view == "details":
     with left:
         st.markdown("<div class='detail-poster'>", unsafe_allow_html=True)
         if data.get("poster_url"):
-            st.image(data["poster_url"], use_container_width=True)
+            st.image(data["poster_url"], use_column_width=True)
         else:
             st.markdown(
                 "<div style='aspect-ratio:2/3;background:var(--bg-elevated);display:flex;"
